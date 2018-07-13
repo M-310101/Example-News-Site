@@ -1,0 +1,79 @@
+<!-- Initialisation of html (within Sublime Text you can enter html then press tab to automatically set up the default template -->
+<!DOCTYPE html>
+<html>
+<!-- Set up the head of the page (ie. the tab title) and is also where the type of the file is set and the css can be linked -->
+<head>
+	<title>News Page</title>
+	<link rel="stylesheet" type="text/css" href="pagestyle.css">
+</head>
+<!-- body tag sets up everything inside to be displayed onto the page -->
+<body>
+	<!-- header tag allows for elements to be displayed onto the header of the body (DO NOT CONFUSE WITH HEAD TAG) -->
+	<header>
+		<!-- h1 is one of the h tags which are heading texts (goes from h1 to h6, with text getting smaller as number increases) -->
+		<h1>Example News</h1>
+	</header>
+	<!-- everything inside the main tag is unique content for the main portion of the page -->
+	<main>
+		<h2>Current News</h2>
+		<!-- ul tag represents unorder list (opposite is ol tag for ordered list), id allows this specific tag (and everything inside) to be referenced in things such as css or js -->
+		<ul id="articles">
+			<!-- li tag represents the start of a list item within a list -->
+			<li>
+				<!-- a short for anchor, it is a tag used to link its element to a location, done by setting a href to the location of that document -->
+				<a href="https://www.bbc.co.uk/news/uk-politics-44821976" target="blank">
+					<!-- div tag allows everything inside to be affected together, the class means that multiple tags can be affected by the same things (ie. css) together -->
+					<div class="text">
+						<h3>Trump and May meet in London</h3>
+						<p>A US-UK trade deal "will absolutely be possible", Donald Trump has said,
+							 after he told The Sun Theresa May's Brexit plan could kill an agreement.<br /><br />
+							 Speaking after talks at Chequers, Mr Trump said the US-UK relationship is
+							 "the highest level of special", while Mrs May said they had discussed plans
+							 for an "ambitious" trade agreement.</p>
+
+						<!-- <a href="https://www.bbc.co.uk/news/uk-politics-44821976">Read the full story</a> -->
+							<!-- most tags need closing, special tags such as the a tag dont need closing -->
+						</div>
+						<div class="image" style="background-image:url(https://cdn.images.express.co.uk/img/dynamic/galleries/x701/384402.jpg)">
+						</div>
+					</a>
+				</li>
+				<li>
+					<a href="https://www.bbc.co.uk/news/world-us-canada-44805888" target="blank">
+						<div class="text">
+							<h3>Global star set to become youngest billionaire ever</h3>
+							<p>Kylie Jenner was just 10 years old when she made her debut on her family's
+								reality television series Keeping up with the Kardashians. A decade on,
+								the show is still going strong and its youngest star is now the famous
+								family's highest earner.<br /><br />It emerged this week just how vast
+								a chunk of the family's wealth belongs to the 20-year-old. Despite Kim's
+								initial eclipsing fame, Forbes magazine says Kylie is now worth almost
+								three times as much as her sister at an estimated $900m (£680m).</p>
+							</div>
+							<div class="image" style="background-image:url(https://ichef.bbci.co.uk/news/660/cpsprodpb/850C/production/_102506043_gettyimages-473803018.jpg)">
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.bbc.co.uk/news/world-asia-44782132?intlink_from_url=https://www.bbc.co.uk/news/topics/cnrxwmw1dzkt/thailand-cave-rescue&link_location=live-reporting-story" target="blank">
+							<div class="text">
+								<h3>Thailand rescue attempt is successful</h3>
+								<p>Divers in northern Thailand have rescued all 12 boys and their football
+									coach from flooded caves, 17 days after they got trapped underground.
+									Their plight and the massive, dangerous three-day-long operation to
+									free them gripped the world's attention.<br/><br/>The group was cut
+									off on 23 June after heavy rains flooded their way back out.<br /><br />
+									They were found by British divers last week, huddled in darkness on
+									a ledge amid fears they could be forced to stay there for months until
+									 water receded.</p>
+								</div>
+								<div class="image" style="background-image:url(https://images.enca.com/encadrupal/styles/600_383/s3/2018-07-08T031513Z_2005967337_RC1E6F37C450_RTRMADP_3_THAILAND-ACCIDENT-CAVE.JPG)">
+								</div>
+							</a>
+						</li>
+					</ul>
+				</main>
+				<!-- footer tag can be used for the bottom of the site -->
+				<footer></footer>
+			</body>
+			</html>
